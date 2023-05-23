@@ -16,8 +16,12 @@
                 <li class="link-effect"><a href="/">О нас</a></li>
                 <li class="link-effect"><a href="">Каталог</a></li>
                 <li class="link-effect"><a href="/where">Где нас найти?</a></li>
-                <li class="link-effect"><a href="/basket">Корзина</a></li>
-                <li class="link-effect"><a href="/login">Вход</a></li>
+                @auth
+                    <li class="link-effect"><a href="/basket">Корзина</a></li>
+                @endauth
+                @guest
+                    <li class="link-effect"><a href="/login">Вход</a></li>
+                @endguest
             </ul>
         </div>
     </footer>
