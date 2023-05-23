@@ -1,0 +1,53 @@
+
+footer{
+    margin: 0 100px ;
+    padding: 1vw;
+    border-top: black 2px solid;
+    border-bottom: black 1px solid;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 5vw;
+}
+a{
+    color: black;
+    font-size: 1.2vw;
+}
+h2{
+    color: black;
+    font-size: 1.5vw;
+    font-weight:  300;
+}
+/*подчеркивание у ссылок*/
+.link-effect::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: 0.3s;
+}
+.link-effect:hover::after{
+    width: 100%;
+    transition: width 0.3s;
+}
+.cop{
+    margin: 0 100px;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cop p{
+    font-size: 1vw;
+    color: black;
+}
+strong{
+    font-weight: 100;
+    font-size: 1.1vw;
+}

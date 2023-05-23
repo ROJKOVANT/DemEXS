@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: none;
+    text-decoration: none;
+    background-image: none;
+    background-color: transparent;
+}
+.container-1{
+    margin: 3vw 100px 0;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-size: 2vw;
+    color: black;
+    border-bottom: black 2px solid;
+    margin-bottom: 3vw;
+    text-align: center;
+    padding-bottom: 0.5vw;
+    font-weight: 100;
+}
+/*Начало блока корзина*/
+.table-block {
+    color: black;
+    margin: 5vw 28vw 16vw;
+}
+th {
+    padding: 1.2vw 2vw;
+    border: 1px solid black;
+    text-align: center;
+}
+.table-title {
+    font-size: 1.1vw;
+}
+.table-content {
+    font-size: 0.8vw;
+}
+.table-content a {
+    color: black;
+    font-size: 1vw;
+}
+

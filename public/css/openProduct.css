@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: none;
+    text-decoration: none;
+    background-image: none;
+    background-color: transparent;
+}
+.open_tovar{
+    display: flex;
+    margin: 3vw 100px 3vw;
+    flex-direction: column;
+}
+.open_tovar h1{
+    color: black;
+    font-weight: 100;
+    font-size: 1.8vw;
+    padding-bottom: 0.5vw;
+    border-bottom: 1px solid black ;
+}
+.tovar_product{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+/**/
+.tovar_img{
+    display: flex;
+    margin-top: 3vw;
+    flex-direction: row;
+    width: 600px;
+    height: 550px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.tovar_img img{
+    width: 25vw;
+}
+/**/
+.tovar_info{
+    display: flex;
+    margin-top: 3vw;
+    flex-direction: column;
+    width: 500px;
+    height: 550px;
+    border: 1px solid black;
+    justify-content: flex-start;
+}
+h3{
+    padding: 2vw 1vw 0;
+    color: black;
+    font-size: 1.5vw;
+}
+/*cont1*/
+.cont1{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 0 1vw;
+}
+.cont1 h4{
+    padding-top: 1vw;
+    color: black;
+    font-size: 1.2vw;
+}
+.cont1 p{
+    color: black;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.1vw;
+    padding-bottom: 0.5vw;
+    border-bottom: 1px solid black;
+}
+/**/
+.price_info{
+    display: flex;
+    margin-top: 3vw;
+    flex-direction: column;
+    width: 350px;
+    height: 474px;
+    border: 1px solid black;
+    align-items: center;
+    gap: 0.5vw;
+    padding: 2vw 1.2vw;
+}
+/*contprice1*/
+.contprice1{
+    margin-top: 0.5vw;
+    display: flex;
+}
+.contprice1 p{
+    color: black;
+    font-size: 2.2vw;
+    font-weight: 100;
+}
+/*contprice2*/
+.contprice2{
+    margin-top: 0.5vw;
+    display: flex;
+}
+.contprice2 p{
+    color: black;
+    font-size: 1.2vw;
+    line-height: 50px;
+    font-weight: 100;
+}
+.btn_top1{
+    display: flex;
+    justify-content: center;
+    margin: 0.5vw 0;
+    gap: 1vw;
+}
+.btn_top1_more1{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    font-size: 0.9vw;
+    padding: 0.3vw 1vw;
+    font-family: 'Philosopher';
+    font-weight: normal;
+    letter-spacing: 2.5px;
+    transition: 2s;
+}
+.btn_top1_more1:hover{
+    background: black;
+    color: white;
+}
+input {
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    font-size: 0.9vw;
+    width: 5vw;
+    height: 1.7vw;
+    font-weight: 100;
+    transition: 2s;
+}
+.info_price{
+    display: flex;
+    margin-top: 2vw;
+}
+.info_price p{
+    color: black;
+    font-size: 1.2vw;
+    line-height: 25px;
+    font-weight: 100;
+}
