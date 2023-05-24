@@ -17,7 +17,7 @@
             <li class="link-effect"><a href="/allCategory">Все категории</a></li>
             <li class="link-effect"><a href="/addProduct">Создать товар</a></li>
             <li class="link-effect"><a href="/addCategory">Создать категорию</a></li>
-            <li class="link-effect"><a href="">Все заказы</a></li>
+            <li class="link-effect"><a href="/ordersAdmin">Все заказы</a></li>
             <li class="link-effect"><a href="">Вход</a></li>
         </ul>
     </div>

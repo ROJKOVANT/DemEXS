@@ -34,6 +34,9 @@ Route::get('/openProduct', function () {
 Route::get('/basket', function () {
     return view('basket');
 });/*страница корзина*/
+Route::get('/orders', function () {
+    return view('orders');
+});/*страница заказы*/
 
 /*Админ-панель*/
 Route::get('/admin', function () {
@@ -41,10 +44,13 @@ Route::get('/admin', function () {
 });/*страница админ*/
 Route::get('/addProduct', function () {
     return view('admin.addProduct');
-});/*страница админ создать товар*/
+});/*страница админ - создать товар*/
 Route::get('/allCategory', function () {
     return view('admin.allCategory');
-});/*страница все категории*/
+});/*страница админ - все категории*/
 Route::get('/addCategory', function () {
     return view('admin.addCategory');
-});/*страница админ создать категорию*/
+});/*страница админ - создать категорию*/
+Route::get('/ordersAdmin', function () {
+    return view('admin.ordersAdmin');
+});/*страница админ - все заказы*/

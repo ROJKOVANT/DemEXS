@@ -18,6 +18,7 @@
                 <li class="link-effect"><a href="/where">Где нас найти?</a></li>
                 <li class="link-effect"><a href="/basket">Корзина</a></li>
                 <li class="link-effect"><a href="/admin">Админ-панель</a></li>
+                <li class="link-effect"><a href="/orders">Профиль</a></li>
                 <li class="link-effect"><a href="/login">Вход</a></li>
             </ul>
         </div>
